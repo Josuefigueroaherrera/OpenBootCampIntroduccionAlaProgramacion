@@ -34,9 +34,7 @@ public class Main {
         System.out.println(miCoche.NumeroDePuertas);
     }
 
-    public static int suma(int a, int b) {
-        return a + b;
-    }
+
 }
     class Coche {
         public int NumeroDePuertas = 3;
