@@ -1,0 +1,25 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        //DECLARAR UNA VARIABLE DE TIPO INT LLAMADA NUMERO 1
+
+        int numero1=1;
+
+        //MODIFICAR EL VALOR DE LA VARIABLE NUMERO 1
+
+        int numero1=2;
+
+        //CREAR UN ARRAY DE 4 ELEMENTOS
+
+        int Array[];
+        Array = new list[4];
+        Array = { 3,6,9,7};
+
+        //MOSTRAR EL ELEMENTO DE LA POSICIÓN 0
+
+        Array[0]=3;
+    }
+}
