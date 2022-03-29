@@ -1,0 +1,54 @@
+package com.company;
+
+import java.sql.SQLOutput;
+
+public class Main {
+
+    public static void main(String[] args) {
+    
+    Persona edad = new Persona();
+    edad.setEdad( 19);
+
+    Persona nombre = new Persona();
+    nombre.setNombre("NOMBRE DE PERSONA ");
+
+    Persona telefono = new Persona();
+    telefono.setTelefono(900900900);
+
+        System.out.println(edad.getEdad());
+        System.out.println(nombre.getNombre());
+        System.out.println(telefono.getTelefono());
+        //Otra forma de hacerlo también sería : System.out.println(edad.getEdad() + " " + nombre.getNombre()+ " "+ telefono.getTelefono() );
+    }
+    }
+}
+class Persona {
+    private int edad;
+        private String nombre;
+        private int telefono;
+
+        public void setEdad(int edad){
+            this.edad=edad;
+        }
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+        public void setTelefono(int telefono){
+            this.telefono=telefono;
+        }
+        public int getEdad(){
+            return this.edad;
+        }
+        public String getNombre(){
+            return this.nombre;
+        }
+        public int getTelefono(){
+            return this.telefono;
+    }
+}
+/*Crear clase Persona.
+- Crear variables las privadas edad, nombre y telefono de la clase Persona.
+- Crear gets y sets de cada propiedad.
+- Crear un objeto persona en el main.
+- Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono,
+ por último muéstralas por consola.*/
